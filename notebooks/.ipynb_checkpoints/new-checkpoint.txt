@@ -1,0 +1,7 @@
+name,age,city,income,signup_date 
+Alex,25,Miami,"$72,000",2025-01-12 
+Sam,,Miami,"$68,500",2025-01-13 
+Jordan,34,miami,"72000",2025-01-15 
+Taylor,29,Orlando,,2025-01-17 
+Morgan,150,Orlando,"$81,000",2025-01-18 
+Alex,25,Miami,"$72,000",2025-01-12
