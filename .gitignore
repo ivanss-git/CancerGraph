@@ -3,5 +3,14 @@
 __pycache__/
 *.pyc
 
+.DS_Store
+**/.DS_Store
+
 data/raw/*
+!data/raw/.gitkeep
+
 data/processed/*
+!data/processed/.gitkeep
+
+brca_tcga_pub/
+brca_tcga_pub.tar.gz
