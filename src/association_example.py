@@ -1,5 +1,6 @@
 import numpy as np
 import sys
+from data import clinical_shared, mirna_shared, mrna_shared
 
 def main():
     # Known association matrix Y (miRNAs x diseases)
@@ -47,7 +48,7 @@ def main():
     for epoch in range(1000):
         error = Y - np.dot(X, W.T)
         
-        # Standard decomposition gradients
+        #uStandard decomposition gradients
         grad_X = -2 * np.dot(error, W)
         grad_W = -2 * np.dot(error.T, X)
         
